@@ -2,13 +2,13 @@
 
 const Service = () => {
     return (
-        <div className="border-2 bg-orange-500 p-5">
+        <div className=" bg-orange-500 p-5 text-2xl text-white">
             <h1>Our Services </h1>
-            <li>Web Design</li>
-            <li>Web Development </li>
-            <li>Cyber Security</li>
-            <li>Data Analists </li>
-            <li>Artifishial Intelligents </li>
+            <ol>Web Design</ol>
+            <ol>Web Development </ol>
+            <ol>Cyber Security</ol>
+            <ol>Data Analists </ol>
+            <ol>Artifishial Intelligents </ol>
         </div>
     );
 };
